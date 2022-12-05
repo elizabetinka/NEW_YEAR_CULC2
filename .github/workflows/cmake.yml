@@ -36,9 +36,9 @@ jobs:
         prerelease: true
         title: "New Year Build"        
         files: | 
-            build/*.exe
-            build/*.bin
-            build/*.app/**/*
+            cmake-build-debug/*.exe
+            cmake-build-debug/*.bin
+            cmake-build-debug/*.app/**/*
             CMakeLists.txt
           
 
