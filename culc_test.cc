@@ -13,7 +13,7 @@ TEST(SumTest, Zero) {
 
 TEST(SumTest, Negative) {
     EXPECT_EQ(Culk(-6,7,'+'), 1);
-    EXPECT_EQ(Culk(-6,-10,'+'), -16);
+    EXPECT_EQ(Culk(-6,-10,'+'), 16);
 }
 TEST(SumTest, Big) {
     EXPECT_EQ(Culk(6000,20,'+'), 6020);
