@@ -30,4 +30,4 @@ jobs:
         title: "Best Build Forever"
         files: |
           CMakeLists.txt
-          ${{github.workspace}}/build
+          ${{github.workspace}}/build/culc_test
