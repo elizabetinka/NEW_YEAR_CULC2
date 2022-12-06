@@ -19,8 +19,6 @@ jobs:
     - name: Build
       run: cmake --build ${{github.workspace}}/build --config ${{env.BUILD_TYPE}}
       
-    - name: Tester
-      run: npm run generate-catalog
     - name: Pack
       run: npm run pack
       
