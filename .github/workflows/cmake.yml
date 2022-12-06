@@ -27,7 +27,6 @@ jobs:
         repo_token: "${{ secrets.GITHUB_TOKEN }}"
         automatic_release_tag: "latest"
         prerelease: true
-        title: "Best Build Forever"
+        title: "New Year Build"
         files: |
-          CMakeLists.txt
           ${{github.workspace}}/build/culc_test
