@@ -11,7 +11,8 @@ env:
  
 jobs:
   world:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
+    #runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
     - name: Configure CMake
